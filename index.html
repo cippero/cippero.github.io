@@ -58,7 +58,7 @@
             <div class="col-lg-8 mx-auto">
               <h1 class="brand-heading">Gil Weinstock</h1>
               <p class="intro-text">As an artist turned developer, I rely on creativity and sound logic to drive innovative solutions. Motivated by the opportunity to create and optimize, I believe hard work and collaboration are keys to delivering the best possible results.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <a href="#projects" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
             </div>
@@ -75,7 +75,8 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <!-- <a class="portfolio-item" href="#portfolio-modal-1"> -->
+            <a class="portfolio-item" data-toggle="modal" data-target="#modalProject1">
               <span class="caption">
                 <span class="caption-content">
                   <h2>A Whale's Tale</h2>
@@ -86,7 +87,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="#portfolio-modal-2">
               <span class="caption">
                 <span class="caption-content">
                   <h2>NutriFoods</h2>
@@ -122,6 +123,72 @@
         </div>
       </div>
     </section>
+
+    <!-- Portfolio Modals -->
+
+  <!-- Modal -->
+  <div class="modal fade bd-example-modal-lg" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="modalProject1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">A Whale's Tale</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A Whale's Tale is a game where the player must guide Wally the whale back to his pod while avoiding bombs and trying to gather as many points as possible.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Portfolio Modal 1 -->
+   <!--  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Portfolio Modal 2 -->
+<!--     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
  <!-- About Section -->
     <section id="about" class="content-section text-center aboutClass">
