@@ -141,12 +141,19 @@ a:focus, a:hover {
     letter-spacing: 1px;
     border-bottom: none;
     background: transparent;
+    text-shadow: 0 5px 10px #0000005e;
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    /*background: black;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+52,000000+53,ffffff+98,ffffff+98,000000+99,000000+99,ffffff+100 */
+    background: rgb(0,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.5) 53%, rgba(255,255,255,0.3) 98%, rgba(255,255,255,0.5) 98%, rgba(0,0,0,0.5) 99%, rgba(0,0,0,0.5) 99%, rgba(255,255,255,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.3) 52%,rgba(0,0,0,0.5) 53%,rgba(255,255,255,0.3) 98%,rgba(255,255,255,0.5) 98%,rgba(0,0,0,0.5) 99%,rgba(0,0,0,0.5) 99%,rgba(255,255,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.3) 52%,rgba(0,0,0,0.5) 53%,rgba(255,255,255,0.3) 98%,rgba(255,255,255,0.5) 98%,rgba(0,0,0,0.5) 99%,rgba(0,0,0,0.5) 99%,rgba(255,255,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -159,6 +166,8 @@ a:focus, a:hover {
 
 .logoClass {
   height: 50px;
+  -webkit-filter: drop-shadow(0 4px 4px #0000007e);
+  filter: drop-shadow(0 4px 4px #0000007e);
 }
 
 .masthead {
@@ -167,26 +176,36 @@ a:focus, a:hover {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: black;
-  background: url("../img/IMG_3784.jpg") no-repeat bottom center scroll;
-  /*background-color: #123;*/
+  color: white;
+  background-color: #a0b0e8;
+  /*background: url("../img/abstract-art-background-696644.jpg") no-repeat bottom center scroll;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    background-attachment: fixed;
+  }
 }
 
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
-  background-color: rgb(255,255,255,0.3);
+  background-color: rgb(255,255,255,0.1);
   /*background: linear-gradient(to bottom, rgb(255,255,255,0), rgba(20,30,190,1));*/
 }
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
-
+  text-shadow: 0 8px 10px #0000005e;
+}
+.masthead .intro-body .brand-heading:hover, .brand-class:hover {
+  text-shadow: 0 8px 10px #234b5b5e;
+  cursor: default;
 }
 
 .masthead .intro-body .intro-text {
@@ -195,6 +214,7 @@ a:focus, a:hover {
 
 .brand-class {
   display: inline-block;
+  text-shadow: 0 5px 10px #0000005e;
 }
 
 @media (min-width: 768px) {
