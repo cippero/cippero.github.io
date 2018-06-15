@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!--     <meta name="description" content="">
+    <meta name="author" content=""> -->
 
     <title>Gil Weinstock</title>
 
@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
 
     <!-- Custom style -->
     <link href="css/style.css" rel="stylesheet">
@@ -88,7 +89,7 @@
               </a>
             </div>
             <div class="col-lg-6">
-              <a class="portfolio-item" href="#portfolio-modal-2">
+              <a class="portfolio-item" data-toggle="modal" data-target="#modalProject2">
                 <span class="caption">
                   <span class="caption-content">
                     <h2>NutriFoods</h2>
@@ -191,7 +192,7 @@
     </div>
       <!-- Portfolio Modals -->
 
-    <!-- Modal -->
+    <!-- Modal 1: A Whale's Tale -->
     <div class="modal fade bd-example-modal-lg" id="modalProject1" tabindex="-1" role="dialog" aria-labelledby="modalProject1" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -204,24 +205,61 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
+
                 <div class="col-lg-12">
-                  <p>A Whale's Tale is a game where the player must guide Wally the whale back to his pod while avoiding bombs and trying to gather as many points as possible.</p>
+                  <p class="modal-text-class">A Whale's Tale is a game where the player must guide Wally the whale back to his pod while avoiding bombs and trying to gather as many points as possible.</p>
+                  <p class="modal-text-class">This app was built primarily using Phaser 2 and JavaScript.</p>
                 </div>
+
               </div>
+              <h5 class="text-center mt-5 mb-0">Screenshots</h5>
+              <hr>
               <div class="row">
+
                 <div class="col-lg-4">
-                  <img class="w-100 d-inline" src="https://user-images.githubusercontent.com/37132245/38597622-9c4341d2-3d0d-11e8-8599-d1a4b62e9c10.jpg" alt="wallystale_screenshot01">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597622-9c4341d2-3d0d-11e8-8599-d1a4b62e9c10.jpg" alt="wallystale_screenshot01">
                 </div>
                 <div class="col-lg-4">
-                  <img class="w-100 d-inline" src="https://user-images.githubusercontent.com/37132245/38597647-bba691d2-3d0d-11e8-94ba-681deb56320f.jpg" alt="wallystale_screenshot01">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597647-bba691d2-3d0d-11e8-94ba-681deb56320f.jpg" alt="wallystale_screenshot01">
                 </div>
                 <div class="col-lg-4">
-                  <img class="w-100 d-inline" src="https://user-images.githubusercontent.com/37132245/38597666-d604ac3a-3d0d-11e8-9d50-286aeb358f04.jpg" alt="wallystale_screenshot01">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597666-d604ac3a-3d0d-11e8-9d50-286aeb358f04.jpg" alt="wallystale_screenshot01">
                 </div>
+
               </div>
+              <h5 class="text-center mt-5 mb-0">Technologies Used</h5>
+              <hr>
               <div class="row">
-                <div class="col-lg-6">
-                  <img src="https://phaser.io/images/logo/logo-download.png" alt="" class="img-fluid">
+                
+                <div class="col-lg-2 col-4 mt-3 offset-lg-1 offset-2">
+                  <img src="https://phaser.io/images/logo/logo-download.png" alt="phaser" class="img-fluid devicon-class img-responsive inline-block">
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-javascript-plain devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-html5-plain-wordmark devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-css3-plain-wordmark devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-git-plain-wordmark devicon-class"></i>
+                </div>
+
+              </div>
+              <h5 class="text-center mt-5 mb-0">Check out the app</h5>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4 col-4 mt-3 offset-lg-2 offset-2">
+                  <a href="https://github.com/cippero/A-Whale-Tale" target="_blank">
+                    <i class="devicon-github-plain-wordmark devicon-class"></i>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-4 mt-3">
+                  <a href="http://smiling-bone.surge.sh/" target="_blank">
+                    <img src="img/whaleSheet.png" alt="Play A Whale's Tale" class="img-fluid devicon-class img-responsive inline-block">
+                  </a>
                 </div>
               </div>
             </div>
@@ -233,49 +271,84 @@
       </div>
     </div>
 
-      <!-- Portfolio Modal 1 -->
-     <!--  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-                <hr class="star-dark mb-5">
-                <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  Close Project</a>
-              </div>
-            </div>
+     <!-- Modal 2: Nutrifoods -->
+    <div class="modal fade bd-example-modal-lg" id="modalProject2" tabindex="-1" role="dialog" aria-labelledby="modalProject1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">NutriFoodS</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-        </div>
-      </div> -->
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
 
-      <!-- Portfolio Modal 2 -->
-  <!--     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-                <hr class="star-dark mb-5">
-                <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  Close Project</a>
+                <div class="col-lg-12">
+                  <p class="modal-text-class">A Whale's Tale is a game where the player must guide Wally the whale back to his pod while avoiding bombs and trying to gather as many points as possible.</p>
+                  <p class="modal-text-class">This app was built primarily using Phaser 2 and JavaScript.</p>
+                </div>
+
+              </div>
+              <h5 class="text-center mt-5 mb-0">Screenshots</h5>
+              <hr>
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597622-9c4341d2-3d0d-11e8-8599-d1a4b62e9c10.jpg" alt="wallystale_screenshot01">
+                </div>
+                <div class="col-lg-4">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597647-bba691d2-3d0d-11e8-94ba-681deb56320f.jpg" alt="wallystale_screenshot01">
+                </div>
+                <div class="col-lg-4">
+                  <img class="w-100 d-inline mt-3" src="https://user-images.githubusercontent.com/37132245/38597666-d604ac3a-3d0d-11e8-9d50-286aeb358f04.jpg" alt="wallystale_screenshot01">
+                </div>
+
+              </div>
+              <h5 class="text-center mt-5 mb-0">Technologies Used</h5>
+              <hr>
+              <div class="row">
+                
+                <div class="col-lg-2 col-4 mt-3 offset-lg-1 offset-2">
+                  <img src="https://phaser.io/images/logo/logo-download.png" alt="phaser" class="img-fluid devicon-class img-responsive inline-block">
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-javascript-plain devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-html5-plain-wordmark devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-css3-plain-wordmark devicon-class"></i>
+                </div>
+                <div class="col-lg-2 col-4 mt-3">
+                  <i class="devicon-git-plain-wordmark devicon-class"></i>
+                </div>
+
+              </div>
+              <h5 class="text-center mt-5 mb-0">Check out the app</h5>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4 col-4 mt-3 offset-lg-2 offset-2">
+                  <a href="https://github.com/cippero/A-Whale-Tale" target="_blank">
+                    <i class="devicon-github-plain-wordmark devicon-class"></i>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-4 mt-3">
+                  <a href="http://smiling-bone.surge.sh/" target="_blank">
+                    <img src="img/whaleSheet.png" alt="Play A Whale's Tale" class="img-fluid devicon-class img-responsive inline-block">
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
-      </div> -->
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -285,7 +358,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 
