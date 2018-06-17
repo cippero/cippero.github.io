@@ -207,7 +207,7 @@ a:focus, a:hover {
   text-shadow: 0 8px 10px #0000005e;
 }
 .masthead .intro-body .brand-heading:hover, .brand-class:hover {
-  text-shadow: 0 8px 10px #234b5b5e;
+  text-shadow: 0 8px 30px #234b5b5e;
   cursor: default;
 }
 
@@ -318,12 +318,13 @@ a:focus, a:hover {
 .devicon-class {
   height: 75px;
   font-size: 75px;
+  /*color: black;*/
   /*display: inline-block;*/
 }
 
-.devicon-class:hover {
+/*.devicon-class:hover {
   color: red;
-}
+}*/
 
 .modal-text-class {
   text-align: justify;
