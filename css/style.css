@@ -322,9 +322,23 @@ a:focus, a:hover {
   /*display: inline-block;*/
 }
 
-/*.devicon-class:hover {
-  color: red;
-}*/
+.devicon-class:hover {
+  -webkit-filter: drop-shadow(0 4px 4px #0000007e);
+  filter: drop-shadow(0 4px 4px #0000007e);
+}
+
+div[alt="Play A Whale's Tale"] {
+  height: 75px;
+  background: url("../img/whaleUp.png") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100px;
+}
+
+div[alt="Play A Whale's Tale"]:hover {
+  background-image: url("../img/whaleDown.png");
+}
 
 .modal-text-class {
   text-align: justify;
@@ -394,7 +408,8 @@ a:focus, a:hover {
   }*/
 
   .profile-pic-class {
-    margin: 0;
+    margin: 50px auto;
+    /*margin: 0;*/
     text-align: center;
     display: block;
 
@@ -473,6 +488,11 @@ a:focus, a:hover {
   background-color: white;
   /*background-image: linear-gradient(to bottom, #48ecf6, #28ccd6);*/
 }
+.progress-bar-1 > span:hover {
+  background-color: black;
+  color: #ddd;
+  cursor: default;
+}
 
 /*.progress-bar-2 > span { background-color: #f0a3a3; }
 .progress-bar-3 > span { background-color: #48ecf6; }
@@ -497,7 +517,7 @@ a:focus, a:hover {
 .download-section {
   color: white;
   /*background: url("../img/downloads-bg.jpg") no-repeat center center scroll;*/
-  background-color: #a41;
+  background-color: #aa3b11;
   /*background: linear-gradient(to bottom, rgba(170, 68, 17, 1), rgba(51, 136, 255, 1));*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -559,11 +579,14 @@ a:focus, a:hover {
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 3rem;
-    margin-right: 3rem;
- /*   margin-bottom: 5rem;
-    margin: 0 3rem;*/
+    margin: auto 0 0 0;
+    padding: 1rem 2rem;
+    /*margin-left: 3rem;*/
+    /*margin-right: 3rem;*/
+    /*margin-bottom: 0;*/
+    /*margin: 0 3rem;*/
     text-align: justify;
+    background-color: rgba(70,70,70,0.4);
   }
   .portfolio-item .caption .caption-content h2 {
     font-size: 0.8rem;
@@ -584,6 +607,9 @@ a:focus, a:hover {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
+  }
+  .portfolio-item:hover .portfolio-item .caption .caption-content {
+    background-color: rgba(70,70,70,0);
   }
 }
 
