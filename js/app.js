@@ -39,32 +39,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // // Modal popup$(function () {
-  // $('.portfolio-item').magnificPopup({
-  //   type: 'inline',
-  //   preloader: false,
-  //   focus: '#username',
-  //   modal: true
-  // });
-  // $(document).on('click', '.portfolio-modal-dismiss', function(e) {
-  //   e.preventDefault();
-  //   $.magnificPopup.close();
-  // });
-
 })(jQuery); // End of use strict
-
-// $(".meter > span").each(function() {
-//   setTimeout(() => {
-//     console.log($(this));
-//     console.log($(".meter > span")[0]);
-//     $(this)
-//       .data("origWidth", $(this).width())
-//       .width(0)
-//       .animate({
-//         width: $(this).data("origWidth") // or + "%" if fluid
-//       }, 1200);
-//   }, 1000);
-// });
 
 (function(){
     const barsParent = $(".meter > span");

@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  background-color: black;
+  background-color: #171717;
   /*background: linear-gradient(to bottom, rgba(51, 136, 255, 1), rgba(0, 0, 0, 1));*/
 }
 
@@ -148,7 +148,6 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    /*background: black;*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+52,000000+53,ffffff+98,ffffff+98,000000+99,000000+99,ffffff+100 */
     background: rgb(0,0,0); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.5) 53%, rgba(255,255,255,0.3) 98%, rgba(255,255,255,0.5) 98%, rgba(0,0,0,0.5) 99%, rgba(0,0,0,0.5) 99%, rgba(255,255,255,0.5) 100%); /* FF3.6-15 */
@@ -198,8 +197,6 @@ a:focus, a:hover {
   display: table-cell;
   vertical-align: middle;
   /*background-color: rgb(255,255,255,0.1);*/
-  /*background: linear-gradient(to bottom, rgb(255,255,255,0), rgba(20,30,190,1));*/
-  /*background: linear-gradient(to bottom, rgb(255,255,255,0), rgba(170, 68, 17, 1));*/
 }
 
 .masthead .intro-body .brand-heading {
@@ -279,47 +276,9 @@ a:focus, a:hover {
   }
 }
 
-/*.portfolio-modal .portfolio-modal-dialog {
-  padding: 3rem 1rem;
-  min-height: calc(100vh - 2rem);
-  margin: 1rem calc(1rem - 8px);
-  position: relative;
-  z-index: 2;
-  -moz-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-}
-
-.portfolio-modal .portfolio-modal-dialog .close-button {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
-
-.portfolio-modal .portfolio-modal-dialog .close-button i {
-  line-height: 38px;
-}
-
-.portfolio-modal .portfolio-modal-dialog h2 {
-  font-size: 2rem;
-}
-
-@media (min-width: 768px) {
-  .portfolio-modal .portfolio-modal-dialog {
-    min-height: 100vh;
-    padding: 5rem;
-    margin: 3rem calc(3rem - 8px);
-  }
-  .portfolio-modal .portfolio-modal-dialog h2 {
-    font-size: 3rem;
-  }
-}*/
-
 .devicon-class {
   height: 75px;
   font-size: 75px;
-  /*color: black;*/
-  /*display: inline-block;*/
 }
 
 .devicon-class:hover {
@@ -403,23 +362,19 @@ div[alt="Play A Whale's Tale"]:hover {
 }
 
 @media (min-width: 576px) {
-  /*.picture-and-skills {
-    padding: 40px 10px;
-  }*/
-
-  .profile-pic-class {
+.profile-pic-class {
     margin: 50px auto;
     /*margin: 0;*/
     text-align: center;
     display: block;
-
-    /*height: 100%;*/
-    /*width: auto;*/
   }
 }
 @media (min-width: 767px) {
   .picture-and-skills {
     padding: 40px 20px;
+  }
+  .profile-pic-class {
+    margin: 0;
   }
 }
 @media (min-width: 992px) {
@@ -437,16 +392,8 @@ div[alt="Play A Whale's Tale"]:hover {
   }
 }
 
-/*li {
-  list-style-type: none;
-  text-align: left;
-  letter-spacing: 3px;
-}*/
-
 .meter {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-weight: 700;*/
-  /*text-align: left;*/
   margin: 0 0 35px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -581,10 +528,6 @@ div[alt="Play A Whale's Tale"]:hover {
     transition: opacity 0.25s;
     margin: auto 0 0 0;
     padding: 1rem 2rem;
-    /*margin-left: 3rem;*/
-    /*margin-right: 3rem;*/
-    /*margin-bottom: 0;*/
-    /*margin: 0 3rem;*/
     text-align: justify;
     background-color: rgba(70,70,70,0.4);
   }
