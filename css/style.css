@@ -335,7 +335,20 @@ div[alt="Play A Whale's Tale"]:hover {
   background-color: #3976cc;
 }
 
-.picture-and-skills {
+.profile-pic-class {
+  width: 15%;
+  height: 15%;
+  box-shadow: 2px -2px 2px 0px #0000006b;
+}
+
+.skills-class {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  border: rgba(255,255,255,0.1) 1px solid;
+  padding: 0;
+}
+
+/*.picture-and-skills {
   padding: 40px 0;
 }
 
@@ -346,7 +359,6 @@ div[alt="Play A Whale's Tale"]:hover {
 .profile-pic-class {
   height: 440px;
   width: 50vh;
-  /*margin: 20px auto;*/
   box-shadow: 0 5px 10px #0000005e;
   border-radius: 2px;
 
@@ -364,7 +376,6 @@ div[alt="Play A Whale's Tale"]:hover {
 @media (min-width: 576px) {
 .profile-pic-class {
     margin: 50px auto;
-    /*margin: 0;*/
     text-align: center;
     display: block;
   }
@@ -433,7 +444,6 @@ div[alt="Play A Whale's Tale"]:hover {
 
 .progress-bar-1 > span {
   background-color: white;
-  /*background-image: linear-gradient(to bottom, #48ecf6, #28ccd6);*/
 }
 .progress-bar-1 > span:hover {
   background-color: black;
@@ -441,7 +451,7 @@ div[alt="Play A Whale's Tale"]:hover {
   cursor: default;
 }
 
-/*.progress-bar-2 > span { background-color: #f0a3a3; }
+.progress-bar-2 > span { background-color: #f0a3a3; }
 .progress-bar-3 > span { background-color: #48ecf6; }
 .progress-bar-4 > span { background-color: #f0a3a3; }
 .progress-bar-3 > span { background-color: #48ecf6; }
@@ -454,12 +464,12 @@ div[alt="Play A Whale's Tale"]:hover {
 .progress-bar-4 > span { background-color: #f0a3a3; }
 .progress-bar-3 > span { background-color: #48ecf6; }
 .progress-bar-4 > span { background-color: #f0a3a3; }
-.progress-bar-3 > span { background-color: #48ecf6; }*/
+.progress-bar-3 > span { background-color: #48ecf6; }
 
 @keyframes expandWidth {
    0% { width: 0; }
    100% { width: auto; }
-}
+}*/
 
 .download-section {
   color: white;
@@ -502,6 +512,7 @@ div[alt="Play A Whale's Tale"]:hover {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+  width: 100%;
 }
 
 .portfolio-item .caption .caption-content h2 {
