@@ -164,6 +164,10 @@ a:focus, a:hover {
   }
 }
 
+.seperator {
+  height: 5px;
+}
+
 .logoClass {
   height: 50px;
   -webkit-filter: drop-shadow(0 1px 2px #0000007e);
@@ -337,7 +341,7 @@ div[alt="Play A Whale's Tale"]:hover {
 }
 
 #about {
-  background-color: #3e7f9b;
+  background-color: #305261;
   /*background-color: #3976cc;*/
   padding: 0;
   /*text-align: center;*/
@@ -353,6 +357,10 @@ div[alt="Play A Whale's Tale"]:hover {
 .about-intro-class > h5 {
   margin: 10px auto 0 auto;
   display: block;
+}
+
+.middle-about-class > .content-section-heading > a {
+  font-size: 1rem;
 }
 
 .name {
@@ -417,7 +425,7 @@ div[alt="Play A Whale's Tale"]:hover {
 
 .left-about-class .devicon-class:hover, .right-about-class .devicon-class:hover {
   -webkit-filter: drop-shadow(0 2px 2px #0000007e);
-  filter: drop-shadow(0 2px 2px #0000007e);
+  filter: drop-shadow(0 2px 4px #ffffff4e);
 }
 
 @media (min-width: 576px) {
@@ -449,6 +457,10 @@ div[alt="Play A Whale's Tale"]:hover {
     width: 150px;
     height: auto;
     /*box-shadow: 2px -2px 2px 0px #0000006b;*/
+  }
+
+  .middle-about-class > .content-section-heading > a {
+    font-size: 1.25rem;
   }
 }
 
