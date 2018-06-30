@@ -132,6 +132,10 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
+/*.nav-link:hover {
+  color: black;
+}*/
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 20px;
@@ -181,8 +185,7 @@ a:focus, a:hover {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background-color: white;
-  /*background-color: #a0b0e8;*/
+  background-color: #a39ad8;
   /*background: url("../img/abstract-art-background-696644.jpg") no-repeat bottom center scroll;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -368,10 +371,17 @@ div[alt="Play A Whale's Tale"]:hover {
 }
 
 .skills-about-class {
-  background-color: #171717;
-  /*background-color: rgba(0,0,0,0.2);*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  /*background-color: #171717;*/
+  background-color: rgba(0,0,0,0.2);
   /*flex-grow: 1;*/
-  /*justify-content: center;*/
+  justify-content: space-around;
+  padding-top: 100px;
   /*align-content: space-around;*/
   padding: 10px;
 }
@@ -421,6 +431,7 @@ div[alt="Play A Whale's Tale"]:hover {
   text-align: center;
   height: 50px;
   font-size: 50px;
+  color: rgba(255,255,255,1);
 }
 
 .left-about-class .devicon-class:hover, .right-about-class .devicon-class:hover {
@@ -430,7 +441,6 @@ div[alt="Play A Whale's Tale"]:hover {
 
 @media (min-width: 576px) {
   .skills-about-class {
-    /*justify-content: center;*/
     padding: 20px;
   }
 
@@ -472,6 +482,15 @@ div[alt="Play A Whale's Tale"]:hover {
     text-align: center;
   }
 
+  .skills-about-class {
+    padding: 25px;
+  }
+  .left-about-class .devicon-class, .right-about-class .devicon-class {
+    height: 75px;
+  }
+}
+
+@media (min-width: 992px) {
   .skills-about-class {
     padding: 50px;
   }
