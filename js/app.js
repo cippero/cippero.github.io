@@ -41,16 +41,16 @@
 
 })(jQuery); // End of use strict
 
-(function(){
-    const barsParent = $(".meter > span");
-    for (let i = 0; i < barsParent.length; i++) {
-      setTimeout(() => {
-        $(barsParent[i])
-          .data("origWidth", $(barsParent[i]).width())
-          .width(0)
-          .animate({
-            width: $(barsParent[i]).data("origWidth") // or + "%" if fluid
-          }, 1200);
-      }, 1000);
-    }
-})()
+// (function(){
+//     const barsParent = $(".meter > span");
+//     for (let i = 0; i < barsParent.length; i++) {
+//       setTimeout(() => {
+//         $(barsParent[i])
+//           .data("origWidth", $(barsParent[i]).width())
+//           .width(0)
+//           .animate({
+//             width: $(barsParent[i]).data("origWidth") // or + "%" if fluid
+//           }, 1200);
+//       }, 1000);
+//     }
+// })()

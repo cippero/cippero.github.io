@@ -210,7 +210,19 @@ a:focus, a:hover {
 .masthead .intro-body .brand-heading {
   font-size: 50px;
   text-shadow: 0 4px 13px #000000;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
+  -moz-transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
 }
+
+.brand-class {
+  display: inline-block;
+  text-shadow: 0 1px 3px #000000;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
+  -moz-transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
 .masthead .intro-body .brand-heading:hover, .brand-class:hover {
   text-shadow: 0 0 20px #000000ff;
   /*color: black;*/
@@ -223,11 +235,6 @@ a:focus, a:hover {
 
 .masthead .intro-body .intro-text {
   font-size: 18px;
-}
-
-.brand-class {
-  display: inline-block;
-  text-shadow: 0 1px 3px #000000;
 }
 
 @media (min-width: 768px) {
@@ -292,6 +299,9 @@ a:focus, a:hover {
 .devicon-class {
   height: 75px;
   font-size: 75px;
+  -webkit-transition: filter 0.3s ease-in-out;
+  -moz-transition: filter 0.3s ease-in-out;
+  transition: filter 0.3s ease-in-out;
 }
 
 .devicon-class:hover {
