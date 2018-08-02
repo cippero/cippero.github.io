@@ -396,16 +396,16 @@ div[alt="Play A Whale's Tale"]:hover {
   padding: 10px;
 }
 
-.left-about-class {
+/*.left-about-class {
   order: 2;
 }
 
 .right-about-class {
   order: 3;
-}
+}*/
 
 .middle-about-class {
-  order: 1;
+  /*order: 1;*/
   padding-left: 50px;
   padding-right: 50px;
   display: -webkit-box;
@@ -454,16 +454,16 @@ div[alt="Play A Whale's Tale"]:hover {
     padding: 20px;
   }
 
-  .left-about-class {
+/*  .left-about-class {
     order: 1;
   }
 
   .right-about-class {
     order: 3;
-  }
+  }*/
 
   .middle-about-class {
-    order: 2;
+    /*order: 2;*/
     padding-left: 75px;
     padding-right: 75px;
   }
@@ -496,7 +496,7 @@ div[alt="Play A Whale's Tale"]:hover {
     padding: 25px;
   }
   .left-about-class .devicon-class, .right-about-class .devicon-class {
-    height: 75px;
+    height: 50px;
   }
 }
 
