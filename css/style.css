@@ -386,7 +386,12 @@ div[alt="Play A Whale's Tale"]:hover {
   font-size: 1rem;
 }
 
+.seperator-vertical {
+  height: 5px;
+}
+
 .img-thumbnail {
+  box-shadow: 2px -2px 10px 5px #00000047;
   animation-name: release;
   animation-duration: 1.2s;
   animation-fill-mode: forwards;
