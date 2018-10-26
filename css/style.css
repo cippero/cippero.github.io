@@ -1,3 +1,18 @@
+@keyframes pullback {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(10deg);}
+  50%  {transform: rotate(16deg);}
+  100% {transform: rotate(20deg);}
+}
+
+@keyframes release {
+  0%   {transform: rotate(10deg);}
+  25%  {transform: rotate(-20deg);}
+  50%  {transform: rotate(10deg);}
+  75%  {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
@@ -13,12 +28,7 @@ html {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
@@ -374,6 +384,19 @@ div[alt="Play A Whale's Tale"]:hover {
 
 .middle-about-class > .content-section-heading > a {
   font-size: 1rem;
+}
+
+.img-thumbnail {
+  animation-name: release;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.img-thumbnail:hover {
+  animation-name: pullback;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .name {
